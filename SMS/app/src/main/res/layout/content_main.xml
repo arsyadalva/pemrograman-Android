@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tes.MainActivity"
+    android:weightSum="1"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.06"
+        android:gravity="center"
+        android:longClickable="false"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:text="KRIPTOGRAFI"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#050505"
+        android:textIsSelectable="false"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_weight="0.05" />
+
+    <Button
+        android:id="@+id/btn_Tulis"
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:color/holo_blue_light"
+        android:text="TULIS SMS" />
+
+    <Button
+        android:id="@+id/btn_Baca"
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:color/holo_blue_light"
+        android:gravity="center|center_horizontal"
+        android:text="BACA SMS" />
+</LinearLayout>
